@@ -1,42 +1,4 @@
-breast-cancer-dataset-ii
-
-Attribute information
-
-1) ID number
-2) Outcome (R = recur, N = nonrecur)
-3) Time (recurrence time if field 2 = R, disease-free time if 
-	field 2	= N)
-4-33) Ten real-valued features are computed for each cell nucleus:
-
-	a) radius (mean of distances from center to points on the perimeter)
-	b) texture (standard deviation of gray-scale values)
-	c) perimeter
-	d) area
-	e) smoothness (local variation in radius lengths)
-	f) compactness (perimeter^2 / area - 1.0)
-	g) concavity (severity of concave portions of the contour)
-	h) concave points (number of concave portions of the contour)
-	i) symmetry 
-	j) fractal dimension ("coastline approximation" - 1)
-
-Several of the papers listed above contain detailed descriptions of
-how these features are computed. 
-
-The mean, standard error, and "worst" or largest (mean of the three
-largest values) of these features were computed for each image,
-resulting in 30 features.  For instance, field 4 is Mean Radius, field
-14 is Radius SE, field 24 is Worst Radius.
-
-Values for features 4-33 are recoded with four significant digits.
-
-34) Tumor size - diameter of the excised tumor in centimeters
-35) Lymph node status - number of positive axillary lymph nodes
-observed at time of surgery
-
-Class distribution: 151 nonrecur, 47 recur
-
-Dataset
-
+radius, texture, perimeter, area, smoothness, compactness, concavity, concave points, symmetry, fractal dimension
 119513,N,31,18.02,27.6,117.5,1013,0.09489,0.1036,0.1086,0.07055,0.1865,0.06333,0.6249,1.89,3.972,71.55,0.004433,0.01421,0.03233,0.009854,0.01694,0.003495,21.63,37.08,139.7,1436,0.1195,0.1926,0.314,0.117,0.2677,0.08113,5,5
 8423,N,61,17.99,10.38,122.8,1001,0.1184,0.2776,0.3001,0.1471,0.2419,0.07871,1.095,0.9053,8.589,153.4,0.006399,0.04904,0.05373,0.01587,0.03003,0.006193,25.38,17.33,184.6,2019,0.1622,0.6656,0.7119,0.2654,0.4601,0.1189,3,2
 842517,N,116,21.37,17.44,137.5,1373,0.08836,0.1189,0.1255,0.0818,0.2333,0.0601,0.5854,0.6105,3.928,82.15,0.006167,0.03449,0.033,0.01805,0.03094,0.005039,24.9,20.98,159.1,1949,0.1188,0.3449,0.3414,0.2032,0.4334,0.09067,2.5,0
